@@ -36,7 +36,7 @@ class IntroMenuState extends AdvancedState
 		
 		if (FlxG.sound.music == null)
 		{
-			FlxG.sound.playMusic(AssetPaths.BackgroundIntroMenuState__mp3, 1, true);
+			FlxG.sound.playMusic(AssetPaths.BackgroundIntroMenuState__ogg, 1, true);
 		}
 	}
 }

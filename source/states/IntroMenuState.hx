@@ -33,5 +33,10 @@ class IntroMenuState extends AdvancedState
 		MenuOptions.add(new QuitGame(720, 625));
 		
 		add(MenuOptions);
+        
+        if (FlxG.sound.music == null)
+        {
+            FlxG.sound.playMusic(AssetPaths.BackgroundIntroMenuState__ogg, 1, true);
+        }
 	}
 }
